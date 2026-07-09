@@ -1,33 +1,40 @@
+<img src="./assets/profile-banner.svg" alt="Onur Acar profile banner">
+
 # Onur Acar
 
 I build AI-native developer tools, TypeScript libraries, and full-stack product prototypes.
 
-My current focus is the space where practical software engineering meets AI systems: LLM orchestration, security/validation utilities, reactive runtimes, and real-time applications that feel like actual products rather than isolated demos.
+My current focus is the space where practical software engineering meets AI systems: LLM orchestration, security utilities, reactive runtimes, realtime applications, and product-shaped prototypes that can grow beyond a demo.
 
 ## Featured Work
 
-| Project | What it shows |
-| --- | --- |
-| [FluxDOM](https://github.com/onuracar-dev/FluxDOM) | Experimental `.flow` compiler, fine-grained DOM runtime, Vite integration, monorepo architecture |
-| [llm-conductor](https://github.com/onuracar-dev/llm-conductor) | Multi-provider LLM orchestration, Zod-backed structured outputs, TypeScript library design |
-| [omniguard](https://github.com/onuracar-dev/omniguard) | Zero-dependency validation, sanitization, hashing, JWT helpers, Web Crypto usage |
-| [NimbleJS](https://github.com/onuracar-dev/NimbleJs) | Signals, computed values, effects, stores, persistence, framework-agnostic reactivity |
-| [BuddsApp](https://github.com/onuracar-dev/buddsapp) | Real-time chat, Supabase, LiveKit voice rooms, stories, roles, AI companion behavior |
-| [WebPage Analyzer](https://github.com/onuracar-dev/WebPageAnalyz) | Lighthouse/Axe/YellowLab audit dashboard with Gemini-powered remediation notes |
-| [Solar Breakdown Predict System](https://github.com/onuracar-dev/SolarBreakDownPredictSystemV2) | Solar-field operations dashboard, FastAPI backend, QR technician workflow, ML-oriented artifacts |
+| Project | Focus | Why it matters |
+| --- | --- | --- |
+| [FluxDOM](https://github.com/onuracar-dev/FluxDOM) | Compiler/runtime experiment | Custom `.flow` compiler, direct DOM generation, Vite integration, monorepo architecture |
+| [llm-conductor](https://github.com/onuracar-dev/llm-conductor) | AI orchestration | Multi-provider LLM flows, Zod-backed structured outputs, TypeScript library design |
+| [omniguard](https://github.com/onuracar-dev/omniguard) | Security toolkit | Validation, sanitization, hashing, JWT helpers, native Web Crypto |
+| [NimbleJS](https://github.com/onuracar-dev/NimbleJs) | Reactivity | Signals, computed values, effects, stores, persistence, framework-agnostic state |
+| [BuddsApp](https://github.com/onuracar-dev/buddsapp) | Realtime product | Supabase chat, LiveKit voice rooms, stories, roles, AI companion behavior |
+| [WebPage Analyzer](https://github.com/onuracar-dev/WebPageAnalyz) | Audit dashboard | Lighthouse, Axe, YellowLabTools, Gemini-powered remediation notes |
+| [Solar Breakdown Predict System](https://github.com/onuracar-dev/SolarBreakDownPredictSystemV2) | Operational dashboard | Solar-field monitoring, FastAPI backend, QR technician workflow, ML-oriented artifacts |
 
 ## Technical Range
 
 - TypeScript, JavaScript, React, Vite
-- Node.js, Express, FastAPI, Python
+- Node.js, Express, Python, FastAPI
 - Supabase, PostgreSQL, SQLite, realtime systems
 - LLM application patterns, structured outputs, prompt workflow design
 - Web Crypto, validation, sanitization, JWT utilities
 - Compiler/runtime experiments and frontend architecture
 
-## What I Care About
+## Current Direction
 
-I like projects that have a clear product shape and a real engineering problem underneath. I am especially interested in AI tooling, startup product engineering, developer experience, and systems that can grow from prototype to production.
+I am especially interested in:
+
+- AI tooling and agentic product workflows
+- startup-style full-stack engineering
+- developer experience and small libraries
+- systems that can move from prototype to production
 
 ## Contact
 
