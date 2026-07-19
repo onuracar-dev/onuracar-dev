@@ -6,6 +6,12 @@ I build AI-native developer tools, TypeScript libraries, and full-stack product 
 
 My current focus is the space where practical software engineering meets AI systems: LLM orchestration, security utilities, reactive runtimes, realtime applications, and product-shaped prototypes that can grow beyond a demo.
 
+## 🌐 Portfolio
+
+### [Visit onuracar.dev →](https://onuracar.dev)
+
+Selected work, live products, and the broader story behind what I am building.
+
 ## Featured Work
 
 | Project | Focus | Why it matters |
