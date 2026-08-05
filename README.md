@@ -21,7 +21,6 @@ Selected work, live products, and the broader story behind what I am building.
 | [omniguard](https://github.com/onuracar-dev/omniguard) | Security toolkit | Validation, sanitization, hashing, JWT helpers, native Web Crypto |
 | [NimbleJS](https://github.com/onuracar-dev/NimbleJs) | Reactivity | Signals, computed values, effects, stores, persistence, framework-agnostic state |
 | [BuddsApp](https://github.com/onuracar-dev/buddsapp) | Realtime product | Supabase chat, LiveKit voice rooms, stories, roles, AI companion behavior |
-| [WebPage Analyzer](https://github.com/onuracar-dev/WebPageAnalyz) | Audit dashboard | Lighthouse, Axe, YellowLabTools, Gemini-powered remediation notes |
 | [Solar Breakdown Predict System](https://github.com/onuracar-dev/SolarBreakDownPredictSystemV2) | Operational dashboard | Solar-field monitoring, FastAPI backend, QR technician workflow, ML-oriented artifacts |
 
 ## Technical Range
