@@ -1,47 +1,32 @@
-<img src="./assets/profile-banner.svg" alt="Onur Acar profile banner">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-dark.svg">
+  <img src="./assets/terminal-light.svg" alt="Terminal: whoami, ls ~/projects, cat now.txt" width="100%">
+</picture>
 
-# Onur Acar
+## Onur Acar
 
-I build AI-native developer tools, TypeScript libraries, and full-stack product prototypes.
+Software development student in Türkiye. Frontend by degree, backend by interest.
+I like small libraries with clear guarantees, compilers, and writing down what broke and why.
 
-My current focus is the space where practical software engineering meets AI systems: LLM orchestration, security utilities, reactive runtimes, realtime applications, and product-shaped prototypes that can grow beyond a demo.
+Everything below is live; each project runs on its own subdomain of [onuracar.dev](https://onuracar.dev).
 
-## 🌐 Portfolio
+**Writing**
 
-### [Visit onuracar.dev →](https://onuracar.dev)
+- [Production Engineering Handbook](https://handbook.onuracar.dev/): 67 case studies from my own projects and open-source work. Problem, naive fixes, the actual fix, and the code. ([repo](https://github.com/onuracar-dev/production-engineering-handbook))
 
-Selected work, live products, and the broader story behind what I am building.
+**Libraries**
 
-## Featured Work
+- [FluxDOM](https://fluxdom.onuracar.dev/): experimental compiler-first `.flow` framework with direct DOM output and fine-grained reactivity. ([repo](https://github.com/onuracar-dev/FluxDOM))
+- [NimbleJS](https://nimblejs.onuracar.dev/): small framework-agnostic signals and stores for TypeScript. ([repo](https://github.com/onuracar-dev/NimbleJs))
+- [omniguard](https://omniguard.onuracar.dev/): validation, escaping, hashing, and HS256 JWT on Web Crypto. ([repo](https://github.com/onuracar-dev/omniguard))
+- [llm-conductor](https://llm-conductor.onuracar.dev/): one typed interface for OpenAI, Anthropic, Gemini, and custom providers. ([repo](https://github.com/onuracar-dev/llm-conductor))
 
-| Project | Focus | Why it matters |
-| --- | --- | --- |
-| [FluxDOM](https://github.com/onuracar-dev/FluxDOM) | Compiler/runtime experiment | Custom `.flow` compiler, direct DOM generation, Vite integration, monorepo architecture |
-| [llm-conductor](https://github.com/onuracar-dev/llm-conductor) | AI orchestration | Multi-provider LLM flows, Zod-backed structured outputs, TypeScript library design |
-| [omniguard](https://github.com/onuracar-dev/omniguard) | Security toolkit | Validation, sanitization, hashing, JWT helpers, native Web Crypto |
-| [NimbleJS](https://github.com/onuracar-dev/NimbleJs) | Reactivity | Signals, computed values, effects, stores, persistence, framework-agnostic state |
-| [BuddsApp](https://github.com/onuracar-dev/buddsapp) | Realtime product | Supabase chat, LiveKit voice rooms, stories, roles, AI companion behavior |
-| [Solar Breakdown Predict System](https://github.com/onuracar-dev/SolarBreakDownPredictSystemV2) | Operational dashboard | Solar-field monitoring, FastAPI backend, QR technician workflow, ML-oriented artifacts |
+**Apps**
 
-## Technical Range
+- [PixelCut](https://pixelcut.onuracar.dev/): desktop CSS studio for classrooms. Students recreate a design, the instructor watches the class live. ([repo](https://github.com/onuracar-dev/PixelCut))
+- [WebPageAnalyz](https://wpa.onuracar.dev/): website audit dashboard for performance, accessibility, and SEO, with AI fix suggestions. ([repo](https://github.com/onuracar-dev/WebPageAnalyz))
+- [BuddsApp](https://buddsapp.onuracar.dev/): realtime community chat with voice rooms, stories, and roles on Supabase and LiveKit. ([repo](https://github.com/onuracar-dev/buddsapp))
 
-- TypeScript, JavaScript, React, Vite
-- Node.js, Express, Python, FastAPI
-- Supabase, PostgreSQL, SQLite, realtime systems
-- LLM application patterns, structured outputs, prompt workflow design
-- Web Crypto, validation, sanitization, JWT utilities
-- Compiler/runtime experiments and frontend architecture
+**Stack:** TypeScript, Node.js, Express, Python, FastAPI, React, Supabase, PostgreSQL.
 
-## Current Direction
-
-I am especially interested in:
-
-- AI tooling and agentic product workflows
-- startup-style full-stack engineering
-- developer experience and small libraries
-- systems that can move from prototype to production
-
-## Contact
-
-- GitHub: [onuracar-dev](https://github.com/onuracar-dev)
-- Email: onuracar.work@gmail.com
+[onuracar.dev](https://onuracar.dev) · onuracar.work@gmail.com

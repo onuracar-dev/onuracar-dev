@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" viewBox="0 0 800 290" role="img" aria-label="Terminal: whoami, ls projects, cat now.txt">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 14px; fill: #1f2328; }
+    .p { fill: #1a7f37; font-weight: 600; }
+    .dim { fill: #59636e; }
+    .acc { fill: #0969da; }
+    .ln { opacity: 0; animation: show 0.01s linear forwards; }
+    .cv { fill: #ffffff; animation-name: type; animation-fill-mode: forwards; }
+    .cur { fill: #1f2328; opacity: 0; animation: show 0.01s 4.7s forwards, blink 1s 4.7s steps(1) infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes type { to { transform: translateX(var(--w)); } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ln { animation: none; opacity: 1; }
+      .cv { display: none; }
+      .cur { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="799" height="289" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+  <path d="M0.5 32 V10.5 a10 10 0 0 1 10 -10 H789.5 a10 10 0 0 1 10 10 V32 Z" fill="#f6f8fa" stroke="#d0d7de"/>
+  <circle cx="22" cy="16" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="16" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="16" r="6" fill="#28c840"/>
+  <text x="400" y="21" text-anchor="middle" class="dim" style="font-size:12px">onur@onuracar.dev: ~</text>
+
+  <!-- $ whoami -->
+  <g class="ln" style="animation-delay:0.2s">
+    <text x="24" y="66"><tspan class="p">$</tspan></text>
+    <text x="42" y="66" textLength="50.4" lengthAdjust="spacingAndGlyphs">whoami</text>
+    <rect class="cv" x="40" y="50" width="56" height="22" style="--w:56px;animation-duration:0.6s;animation-delay:0.3s;animation-timing-function:steps(6)"/>
+  </g>
+  <g class="ln" style="animation-delay:1.0s">
+    <text x="24" y="90">onur acar <tspan class="dim">·</tspan> software dev student <tspan class="dim">·</tspan> frontend by degree, backend by choice</text>
+  </g>
+
+  <!-- ls projects -->
+  <g class="ln" style="animation-delay:1.4s">
+    <text x="24" y="128"><tspan class="p">$</tspan></text>
+    <text x="42" y="128" textLength="168" lengthAdjust="spacingAndGlyphs">ls ~/projects --live</text>
+    <rect class="cv" x="40" y="112" width="174" height="22" style="--w:174px;animation-duration:1.2s;animation-delay:1.5s;animation-timing-function:steps(20)"/>
+  </g>
+  <g class="ln" style="animation-delay:2.9s">
+    <text x="24" y="152" class="acc" xml:space="preserve">handbook  fluxdom  nimblejs  omniguard  llm-conductor</text>
+    <text x="24" y="174" class="acc" xml:space="preserve">pixelcut  webpageanalyz  buddsapp</text>
+  </g>
+
+  <!-- $ cat now.txt -->
+  <g class="ln" style="animation-delay:3.3s">
+    <text x="24" y="212"><tspan class="p">$</tspan></text>
+    <text x="42" y="212" textLength="92.4" lengthAdjust="spacingAndGlyphs">cat now.txt</text>
+    <rect class="cv" x="40" y="196" width="98" height="22" style="--w:98px;animation-duration:0.7s;animation-delay:3.4s;animation-timing-function:steps(11)"/>
+  </g>
+  <g class="ln" style="animation-delay:4.3s">
+    <text x="24" y="236">writing engineering case studies, building small TypeScript libraries</text>
+  </g>
+
+  <!-- prompt + cursor -->
+  <g class="ln" style="animation-delay:4.7s">
+    <text x="24" y="270"><tspan class="p">$</tspan></text>
+  </g>
+  <rect class="cur" x="42" y="257" width="9" height="17"/>
+</svg>
